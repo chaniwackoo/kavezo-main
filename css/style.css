@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+.navbar-brand img {
+	max-height: 2rem;
+}
+nav, footer {
+	background-color: #1f5b25;
+}
+h1{
+	font-family: 'Fredericka the Great', cursive;
+}
+h5 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-variant: small-caps;
+
+}
+a { color: inherit; }
+a:hover {
+	text-decoration: none;
+	color: #1f5b25;
+}
+li
+

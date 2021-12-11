@@ -1,0 +1,27 @@
+body {
+	background-image: url(../img/homebg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vw;
+	background-position: center center;
+}
+
+@media screen and (min-width: 600px) {
+.intro {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+}
+}
+@media screen and (max-width: 599px) {
+	.intro {
+		background-color: rgba(0, 0, 0, 0.5);
+		position: fixed;
+		top: 65px;
+		left: 5px;
+		border-radius: 5px;
+	}
+	}
